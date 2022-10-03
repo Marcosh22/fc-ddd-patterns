@@ -4,14 +4,20 @@ import EventHandlerInterface from "./event_handler.interface";
 
 export default class EventDispatcher implements EventDispatcherInterface {
 
-  private eventHandlers: { [eventName: string]: EventHandlerInterface[] }
+  private eventHandlers: { [eventName: string]: EventHandlerInterface[] } = {};
 
   get getEventHandlers(): { [eventName: string]: EventHandlerInterface[] } {
     return this.eventHandlers;
   }
 
   notify(event: eventInterface): void {
-    throw new Error("Method not implemented.");
+    const eventName = event.constructor.name;
+
+    if(this.eventHandlers[eventName]) {
+      this.eventHandlers[eventName].forEach(eventHandler => {
+        eventHandler.handle(event)
+      })
+    }
   }
   
   register(eventName: string, eventHandler: EventHandlerInterface<eventInterface>): void {
@@ -23,11 +29,15 @@ export default class EventDispatcher implements EventDispatcherInterface {
   }
 
   unregister(eventName: string, eventHandler: EventHandlerInterface<eventInterface>): void {
-    throw new Error("Method not implemented.");
+    if(this.eventHandlers[eventName]) {
+      const index = this.eventHandlers[eventName].indexOf(eventHandler);
+
+      if(index !== -1) this.eventHandlers[eventName].splice(index, 1);
+    }
   }
 
   unregisterAll(): void {
-    throw new Error("Method not implemented.");
+    this.eventHandlers = {};
   }
 
 }

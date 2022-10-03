@@ -1,0 +1,1707 @@
+@font-face {
+    font-family: "DINPro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("DINPro Light"),
+        url("https://www.toninsuper.com.br/_assets/site/fonts/DINPro-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DINPro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("DINPro Regular"),
+        url("https://www.toninsuper.com.br/_assets/site/fonts/DINPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DINPro";
+    font-style: normal;
+    font-weight: 500;
+    src: local("DINPro Medium"),
+        url("https://www.toninsuper.com.br/_assets/site/fonts/DINPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DINPro";
+    font-style: normal;
+    font-weight: 700;
+    src: local("DINPro Bold"),
+        url("https://www.toninsuper.com.br/_assets/site/fonts/DINPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DINPro";
+    font-style: normal;
+    font-weight: 900;
+    src: local("DINPro Black"),
+        url("https://www.toninsuper.com.br/_assets/site/fonts/DINPro-Black.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Monteserrat";
+    src:
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-SemiBold.woff") format("woff"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monteserrat";
+    src:
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-SemiBoldItalic.woff") format("woff"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Monteserrat";
+    src:
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-Bold.woff2") format("woff2"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-Bold.woff") format("woff"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monteserrat";
+    src:
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-BoldItalic.woff2") format("woff2"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-BoldItalic.woff") format("woff"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Monteserrat";
+    src:
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-Black.woff2") format("woff2"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-Black.woff") format("woff"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monteserrat";
+    src:
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-BlackItalic.woff2") format("woff2"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-BlackItalic.woff") format("woff"),
+        url("https://www.luiztonin.com.br/_assets/fonts/Montserrat-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+body {
+    font-family: "DINPro", sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+.btn[type="submit"] {
+    color: #fff;
+    background-color: #022384;
+    min-width: 200px;
+}
+
+.btn[type="submit"],
+.btn-success {
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    background-color: #f7f7f7;
+}
+
+.site-menu {
+    border-radius: 0px;
+}
+
+.site-menu .menu-btn .menu-btn-item:hover,
+.site-menu .menu-item a:hover {
+    background-color: #022384;
+}
+
+.loader-container {
+    background-color: #ffffff;
+}
+
+.loader-container i {
+    color: #e50014;
+}
+
+.institucional.ng-scope .card,
+.institucional.ng-scope .card:hover {
+    border: 0;
+    box-shadow: none;
+}
+
+footer#custom_footer {
+    background-color: #e0e2e3;
+}
+
+footer#custom_footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 30px;
+}
+
+footer#custom_footer .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+footer#custom_footer #nav.col {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+footer#custom_footer #nav>ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer#custom_footer #nav>ul>li {
+    color: #666;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+footer#custom_footer #nav>ul>li>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer#custom_footer #app {
+    display: none;
+}
+
+footer#custom_footer #cel {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer#custom_footer #cel>img {
+    max-width: 150px;
+}
+
+footer#custom_footer #stores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer#custom_footer #stores>a {
+    display: block;
+    margin: 0 5px;
+}
+
+footer#custom_footer #stores>a>img {
+    max-height: 40px;
+}
+
+footer#custom_footer #social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer#custom_footer #social>a {
+    display: block;
+    margin: 0 5px;
+}
+
+footer#custom_footer #social>a>img {
+    max-height: 30px;
+    margin-left: 5px;
+}
+
+footer#custom_footer #subfooter {
+    background-color: #174e8c;
+    color: #fff;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer#custom_footer #subfooter a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+@media (max-width: 767.98px) {
+    footer#custom_footer .container {
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+
+    footer#custom_footer .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    footer#custom_footer #nav>ul {
+        margin-bottom: 20px;
+    }
+
+    footer#custom_footer #nav>ul>li {
+        font-size: 0.8em;
+        line-height: 2em;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    footer#custom_footer #app {
+        margin-bottom: 20px;
+    }
+
+    footer#custom_footer #cel {
+        margin-bottom: 10px;
+    }
+
+    footer#custom_footer #cel>img {
+        max-width: 100px;
+    }
+
+    footer#custom_footer #stores>a>img {
+        max-height: 30px;
+    }
+
+    footer#custom_footer #social>a>img {
+        max-height: 25px;
+        margin: 0 3px;
+    }
+
+    footer#custom_footer #subfooter {
+        padding: 5px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer#custom_footer #subfooter a {
+        margin: 0 5px;
+        font-size: 0.9em;
+    }
+
+    #selo-ssl {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 576px) {
+    footer#custom_footer .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    footer#custom_footer .container {
+        max-width: 720px;
+        padding: 30px 30px;
+    }
+
+    footer#custom_footer #cel>img {
+        max-width: 120px;
+    }
+
+    footer#custom_footer #stores>a>img {
+        max-height: 35px;
+    }
+
+    footer#custom_footer #social>a>img {
+        max-height: 25px;
+    }
+
+    footer#custom_footer #nav>ul>li {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+}
+
+@media (min-width: 992px) {
+    footer#custom_footer .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    footer#custom_footer .container {
+        max-width: 1140px;
+    }
+}
+
+#trabalhe_conosco *,
+#trabalhe_conosco *::before,
+#trabalhe_conosco *::after {
+    box-sizing: border-box;
+}
+
+#trabalhe_conosco h1 {
+    color: #fe2222;
+}
+
+#trabalhe_conosco .titulo-box-quemsomos {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#trabalhe_conosco .box {
+    padding: 20px;
+    background-color: #e1e2e3;
+    height: 250px;
+}
+
+#trabalhe_conosco .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#trabalhe_conosco .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#trabalhe_conosco .col-12,
+#trabalhe_conosco .col-md-3,
+#trabalhe_conosco .col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#trabalhe_conosco .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#trabalhe_conosco .responsive-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+    #trabalhe_conosco .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    #trabalhe_conosco .container {
+        max-width: 720px;
+    }
+
+    #trabalhe_conosco .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    #trabalhe_conosco .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    #trabalhe_conosco .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #trabalhe_conosco .container {
+        max-width: 1140px;
+    }
+}
+
+#quem_somos *,
+#quem_somos *::before,
+#quem_somos *::after {
+    box-sizing: border-box;
+}
+
+#quem_somos h1 {
+    color: #fe2222;
+}
+
+#quem_somos p {
+    font-size: 1.1em;
+}
+
+#quem_somos .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#quem_somos .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#quem_somos .col-12,
+#quem_somos .col-md-3,
+#quem_somos .col-md-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#quem_somos .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+#quem_somos .responsive-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+    #quem_somos .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    #quem_somos .container {
+        max-width: 720px;
+    }
+
+    #quem_somos .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    #quem_somos .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+@media (min-width: 992px) {
+    #quem_somos .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #quem_somos .container {
+        max-width: 1140px;
+    }
+}
+
+
+.site-menu .menu-btn .menu-list-categ {
+    position: absolute;
+    background: #022384;
+    color: #FFF;
+    width: 780px;
+    z-index: 99999;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px #666;
+}
+
+.site-menu .menu-btn .menu-list-categ .list-categ .list-categ-item .item a {
+    color: #FFF;
+}
+
+.site-menu .menu-item .menu-subitem {
+    position: absolute;
+    background: #022384;
+    color: #FFF;
+    min-width: 155px;
+    min-height: 190px;
+    max-height: 350px;
+    overflow-y: auto;
+    z-index: 99999;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px #666;
+}
+
+.site-menu .menu-item .menu-subitem a {
+    color: #FFF;
+}
+
+.thumb-loja {
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    height: 97px;
+}
+
+.thumb-loja img {
+    position: relative;
+}
+
+.header .header-desk .header-busca {
+    border: 1px solid #ccc;
+}
+
+.c5-search-friendly .header-busca {
+    position: initial;
+    width: 60%;
+}
+
+.c5-sales-channel .sales-channel {
+    font-size: 15px;
+    color: #022384;
+    text-align: right;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+div.header-desk>div>div:nth-of-type(1) {
+    width: 180px;
+}
+
+.m-b-0 {
+    margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+    .col-md-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9 {
+        float: left;
+    }
+
+    .c5-search-friendly .header-busca .btn-opc {
+        padding-top: 6px;
+        right: 165px;
+    }
+
+
+    .c5-search-friendly .header-busca .btn-opc {
+        color: #022384;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .col-md-1 {
+        width: 33.33333333%;
+    }
+}
+
+
+#quem_somos .box {
+    background-color: #dfe2e3;
+    padding: 20px 0 50px 0;
+    height: 100%;
+}
+
+#quem_somos .box .icon {
+    display: flex;
+    justify-content: center;
+}
+
+#quem_somos .box .icon img {
+    display: block;
+    max-width: 50px;
+}
+
+#quem_somos .box h2 {
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    font-weight: 400;
+    color: #fff;
+    line-height: 0.8em;
+    padding: 5px;
+    margin: 10px 0 20px 0;
+}
+
+#quem_somos .box p,
+#quem_somos .box ul {
+    font-weight: 700;
+    padding: 0 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#quem_somos .box ul {
+    list-style: none;
+}
+
+#quem_somos .box ul li {
+    position: relative;
+}
+
+#quem_somos .box ul li::before {
+    content: "•";
+    margin-right: 5px;
+}
+
+#quem_somos .box.vision h2 {
+    background-color: #0d80bc;
+}
+
+#quem_somos .box.vision p {
+    color: #0d80bc;
+    line-height: 1.1em;
+    font-size: 1.6em;
+}
+
+#quem_somos .box.mission h2 {
+    background-color: #fb9f03;
+}
+
+#quem_somos .box.mission p {
+    color: #fb9f03;
+    font-size: 1.4em;
+}
+
+#quem_somos .box.values h2 {
+    background-color: #fe5705;
+}
+
+#quem_somos .box.values ul {
+    color: #fe5705;
+    font-size: 1.7em;
+    line-height: 1.3em;
+}
+
+@media (max-width: 575.98px) {
+    #quem_somos .box {
+        padding: 10px 0 30px 0;
+        min-height: 270px;
+    }
+
+    #quem_somos .box .icon span img {
+        max-width: 40px;
+    }
+
+    #quem_somos .box h2 {
+        font-size: 2.2em;
+        margin: 5px 0 15px 0;
+        padding: 5px;
+    }
+
+    #quem_somos .box p,
+    #quem_somos .box ul {
+        padding: 0 15px;
+    }
+
+    #quem_somos .box.vision p {
+        font-size: 1.4em;
+    }
+
+    #quem_somos .box.mission p {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+
+    #quem_somos .box.values ul {
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #quem_somos .box {
+        padding: 10px 0 30px 0;
+        min-height: 295px;
+    }
+
+    #quem_somos .box .icon span img {
+        max-width: 40px;
+    }
+
+    #quem_somos .box h2 {
+        font-size: 2.2em;
+        margin: 5px 0 15px 0;
+        padding: 5px;
+    }
+
+    #quem_somos .box p,
+    #quem_somos .box ul {
+        padding: 0 15px;
+    }
+
+    #quem_somos .box.vision p {
+        font-size: 1.4em;
+    }
+
+    #quem_somos .box.mission p {
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+
+    #quem_somos .box.values ul {
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #quem_somos .box {
+        padding: 10px 0 30px 0;
+    }
+
+    #quem_somos .box .icon span img {
+        max-width: 30px;
+    }
+
+    #quem_somos .box h2 {
+        font-size: 2em;
+        margin: 3px 0 10px 0;
+        padding: 5px;
+    }
+
+    #quem_somos .box p,
+    #quem_somos .box ul {
+        padding: 0 10px;
+    }
+
+    #quem_somos .box.vision p {
+        font-size: 1.2em;
+    }
+
+    #quem_somos .box.mission p {
+        font-size: 1em;
+        line-height: 1.1em;
+    }
+
+    #quem_somos .box.values ul {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #quem_somos .box {
+        background-color: #dfe2e3;
+        padding: 15px 0 40px 0;
+    }
+
+    #quem_somos .box .icon span img {
+        max-width: 40px;
+    }
+
+    #quem_somos .box h2 {
+        font-size: 2.5em;
+        margin: 5px 0 15px 0;
+    }
+
+    #quem_somos .box p,
+    #quem_somos .box ul {
+        padding: 0 15px;
+    }
+
+    #quem_somos .box.vision p {
+        font-size: 1.4em;
+    }
+
+    #quem_somos .box.mission p {
+        font-size: 1.2em;
+    }
+
+    #quem_somos .box.values ul {
+        font-size: 1.5em;
+    }
+}
+
+.header .header-mob a {
+    color: #e50014;
+}
+
+#sidebar-wrapper {
+    background-color: #022384;
+}
+
+.sidebar-nav li a span,
+.sidebar-nav li a {
+    color: #fff;
+}
+
+.c5-delivery-options .table-frete tr img {
+    max-width: 100px;
+    height: auto;
+}
+
+#trocas-devolucoes h1,
+#politicas-privacidade-cookies h1,
+#duvidas-frequentes h1 {
+    color: #fe2222;
+}
+
+#trocas-devolucoes h3,
+#politicas-privacidade-cookies h3,
+#duvidas-frequentes h3 {
+    font-weight: 700;
+}
+
+#trocas-devolucoes p,
+#politicas-privacidade-cookies p,
+#duvidas-frequentes p {
+    font-size: 1.2em;
+}
+
+#trocas-devolucoes>div,
+#politicas-privacidade-cookies>div,
+#duvidas-frequentes>div {
+    margin-bottom: 30px;
+}
+
+.landing-page .card {
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+}
+
+.landing-page .card:hover {
+    box-shadow: none;
+}
+
+.produto-selo1 img,
+.produto-selo2 img,
+.produto-selo3 img,
+.produto-selo4 img,
+.produto-selo5 img {
+    max-width: 100%;
+}
+
+@media (max-width: 575.98px) {
+
+    .pageProdutoDetalhe .card-img .box-img .produto-selo1,
+    .pageProdutoDetalhe .card-img .box-img .produto-selo2,
+    .pageProdutoDetalhe .card-img .box-img .produto-selo3,
+    .pageProdutoDetalhe .card-img .box-img .produto-selo4,
+    .pageProdutoDetalhe .card-img .box-img .produto-selo5 {
+        max-width: 80px;
+    }
+
+    #trocas-devolucoes h1,
+    #politicas-privacidade-cookies h1,
+    #duvidas-frequentes h1 {
+        font-size: 1.8em;
+        margin: 20px 0 15px 0;
+    }
+
+    #trocas-devolucoes h3,
+    #politicas-privacidade-cookies h3,
+    #duvidas-frequentes h3 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    #trocas-devolucoes>div,
+    #politicas-privacidade-cookies>div,
+    #duvidas-frequentes>div {
+        margin-bottom: 15px;
+    }
+
+    #trocas-devolucoes p,
+    #politicas-privacidade-cookies p,
+    #duvidas-frequentes p {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    #trocas-devolucoes h1,
+    #politicas-privacidade-cookies h1,
+    #duvidas-frequentes h1 {
+        font-size: 2.5em;
+    }
+
+    #trocas-devolucoes h3,
+    #politicas-privacidade-cookies h3,
+    #duvidas-frequentes h3 {
+        font-size: 1.6em;
+    }
+}
+
+.landing-page .img-fluid {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+
+
+
+.landing-page .bg-box {
+
+    font-family: "DINPro";
+
+    font-weight: 500;
+
+    color: #093b7b;
+
+    background-color: #e0e2e3;
+
+    padding: 40px 10% !important;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.landing-page .bg-box h2 {
+
+    font-family: "DINPro";
+
+    font-weight: 500;
+
+    font-size: 1.8rem;
+
+    line-height: 110%;
+
+    margin: 1rem 0 1rem 0;
+
+    color: #093b7b;
+
+    font-weight: bold;
+
+    text-align: left;
+
+}
+
+
+
+
+.landing-page h5 {
+
+    font-size: 1.4rem;
+
+    line-height: 110%;
+
+    margin: 1.0933333333rem 0 .656rem 0;
+
+    font-weight: bolder;
+
+    font-family: "DINPro";
+
+    font-weight: 500;
+
+}
+
+
+
+
+.landing-page #vantagens-title {
+
+    margin: 30px 0;
+
+    font-weight: bold;
+
+    color: #253960;
+
+    font-size: 2.8rem;
+
+    text-align: center;
+
+}
+
+
+
+
+.landing-page #vantagens-pic {
+
+    margin-bottom: 5px;
+
+}
+
+
+
+
+.landing-page #box-veja,
+.landing-page #box-fale {
+
+    margin: 20px 0;
+
+    padding: 15px 0;
+
+}
+
+
+
+
+.landing-page .bg-vermelho {
+
+    background-color: #fa353a;
+
+}
+
+
+
+
+.landing-page #box-fale>h1,
+.landing-page #box-veja>h1 {
+
+    font-family: "DINPro";
+
+    font-weight: 500;
+
+    color: #fdd82c;
+
+    text-align: center;
+
+    font-size: 2.3rem;
+
+    padding-bottom: 0;
+
+    margin-bottom: 0;
+
+}
+
+
+
+
+.landing-page .font-yellow {
+
+    color: #fdd82c;
+
+}
+
+
+
+
+.landing-page #cadastrarTelevenda {
+
+    background-color: #e0e2e3;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+
+.landing-page .input-field {
+
+    position: relative;
+
+    margin-top: 1rem;
+
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+.landing-page #cadastrarTelevenda input,
+.landing-page #cadastrarTelevenda input::placeholder {
+
+    color: #000;
+
+}
+
+.landing-page h1.color-atacado {
+
+    font-family: "DINPro";
+
+    font-weight: 500;
+
+    text-align: left;
+
+    font-size: 1.3rem;
+
+    padding-bottom: 20px;
+
+    font-weight: bold;
+
+}
+
+
+
+
+.landing-page .color-atacado {
+
+    color: #fe2222;
+
+}
+
+.landing-page .uppercase {
+
+    text-transform: uppercase;
+
+    padding-bottom: 0 !important;
+
+}
+
+
+
+
+.landing-page .text-center {
+
+    text-align: center !important;
+
+}
+
+
+
+
+.landing-page .card-atacado {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-left: 0;
+
+    background-image: url(https://www.toninsuper.com.br//_assets/site/images/televendas/bg-box-telefone.jpg);
+
+    background-repeat: no-repeat;
+
+    background-position: -30px 50%;
+
+    height: 90px;
+
+    margin: 15px 0;
+
+    background-color: #e0e2e3;
+
+    text-decoration: none;
+
+    color: #000;
+
+}
+
+
+
+
+.landing-page .card-atacado h6 {
+
+    font-size: 14px;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .landing-page .bg-box {
+
+        margin: 30px 0;
+
+    }
+
+
+
+
+    .landing-page .bg-box h2 {
+
+        font-size: 1.6rem;
+
+    }
+
+}
+
+
+
+
+.landing-page #cadastrarTelevenda input,
+.landing-page #cadastrarTelevenda input::placeholder {
+
+    color: #000;
+
+}
+
+.landing-page #cadastrarTelevenda input,
+.landing-page #cadastrarTelevenda input::placeholder {
+
+    color: #000;
+
+}
+
+.landing-page #cadastrarTelevenda input:not([type]),
+
+.landing-page #cadastrarTelevenda input[type=text]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=password]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=email]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=url]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=time]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=date]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=datetime]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=datetime-local]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=tel]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=number]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda input[type=search]:not(.browser-default),
+
+.landing-page #cadastrarTelevenda textarea.materialize-textarea {
+
+    background-color: transparent;
+
+    border: none;
+
+    border-bottom: 1px solid #9e9e9e;
+
+    border-radius: 0;
+
+    outline: none;
+
+    height: 3rem;
+
+    width: 100%;
+
+    font-size: 16px;
+
+    margin: 0 0 8px 0;
+
+    padding: 0;
+
+    -webkit-box-shadow: none;
+
+    box-shadow: none;
+
+    -webkit-box-sizing: content-box;
+
+    box-sizing: content-box;
+
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+
+    transition: border .3s, -webkit-box-shadow .3s;
+
+    transition: box-shadow .3s, border .3s;
+
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+
+}
+
+
+
+
+.landing-page #cadastrarTelevenda button,
+
+.landing-page #cadastrarTelevenda input,
+
+.landing-page #cadastrarTelevenda optgroup,
+
+.landing-page #cadastrarTelevenda select,
+
+.landing-page #cadastrarTelevenda textarea {
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+}
+
+.landing-page #tonin-cashback {
+    font-family: "Monteserrat";
+    overflow: hidden;
+    color: #022384;
+}
+
+.landing-page #tonin-cashback .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-page #tonin-cashback .w-100 {
+    width: 100%;
+}
+
+.landing-page #tonin-cashback [class*="col-"] {
+    margin-bottom: 0;
+}
+
+.landing-page #tonin-cashback h2 {
+    font-family: "Monteserrat";
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    max-width: 83%;
+}
+
+.landing-page #tonin-cashback .page-section {
+    padding: 50px 0;
+}
+
+.landing-page #tonin-cashback .with-border-bottom {
+    border-bottom: 2px solid #022384;
+}
+
+.landing-page #tonin-cashback .download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.landing-page #tonin-cashback .steps {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.landing-page #tonin-cashback .steps .step {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-page #tonin-cashback .steps .step .step__number {
+    font-family: "Monteserrat";
+    font-style: italic;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+    color: #FFF;
+    background-color: #022384;
+    position: absolute;
+    left: 50px;
+    top: -10px;
+}
+
+.landing-page #tonin-cashback .steps .step .step__picture {
+    max-width: 120px;
+    height: auto;
+}
+
+.landing-page #tonin-cashback .steps .step p {
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.landing-page #tonin-cashback .purple-box {
+    background-color: #7800b8;
+    padding: 15px;
+}
+
+.landing-page #tonin-cashback .purple-box h3 {
+    color: #04e507;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin: 0;
+}
+
+.landing-page #tonin-cashback .purple-box p {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #FFF;
+    margin: 0;
+    font-size: 20px;
+}
+
+.landing-page #tonin-cashback .responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.landing-page #tonin-cashback .responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.landing-page #tonin-cashback .with-large-coin,
+.landing-page #tonin-cashback .with-small-coin {
+    position: relative;
+}
+
+.landing-page #tonin-cashback .with-large-coin::after,
+.landing-page #tonin-cashback .with-small-coin::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.landing-page #tonin-cashback .with-large-coin::after {
+    background-image: url("https://www.luiztonin.com.br/ecommerce/images/cashback/large-coin.png");
+    width: 320px;
+    height: 252px;
+}
+
+.landing-page #tonin-cashback .with-small-coin::before {
+    background-image: url("https://www.luiztonin.com.br/ecommerce/images/cashback/small-coin.png");
+    width: 110px;
+    height: 95px;
+}
+
+.landing-page #tonin-cashback #download-section.with-small-coin::before {
+    top: 130px;
+    left: 30px;
+}
+
+.landing-page #tonin-cashback #steps-section.with-large-coin::after {
+    top: 0px;
+    right: -200px;
+}
+
+.landing-page #tonin-cashback #video-section.with-small-coin::before {
+    bottom: 130px;
+    right: -130px;
+}
+
+#video-section.with-large-coin::after {
+    top: 90px;
+    left: -400px;
+}
+
+@media (max-width: 1199.98px) {
+
+    .landing-page #tonin-cashback .purple-box h3 {
+        font-size: 32px;
+    }
+
+    .landing-page #tonin-cashback .purple-box p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .landing-page #tonin-cashback h2 {
+        font-size: 26px;
+    }
+
+    .landing-page #tonin-cashback .steps .step {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .landing-page #tonin-cashback .purple-box h3 {
+        font-size: 26px;
+    }
+
+    .landing-page #tonin-cashback .with-large-coin::after {
+        width: 233px;
+        height: 184px;
+    }
+
+    .landing-page #tonin-cashback .with-small-coin::before {
+        width: 80px;
+        height: 69px;
+    }
+
+    .landing-page #tonin-cashback #download-section.with-small-coin::before {
+        top: 140px;
+        left: -30px;
+    }
+
+    .landing-page #tonin-cashback #steps-section.with-large-coin::after {
+        top: 0px;
+        right: -250px;
+    }
+
+    .landing-page #tonin-cashback #video-section.with-large-coin::after {
+        top: 50px;
+        left: -260px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .landing-page #tonin-cashback .page-section {
+        padding: 30px 0;
+    }
+
+    .landing-page #tonin-cashback h2 {
+        font-size: 22px;
+        max-width: 100%;
+    }
+
+    .landing-page #tonin-cashback .download-buttons {
+        flex-direction: column;
+    }
+
+    .landing-page #tonin-cashback .steps .step .step__number {
+        width: 35px;
+        height: 35px;
+        font-size: 24px;
+        line-height: 35px;
+        border-radius: 4px;
+        color: #FFF;
+        left: 30px;
+        top: -20px;
+    }
+
+    .landing-page #tonin-cashback #steps-section.with-large-coin::after {
+        top: 0px;
+        right: -180px;
+    }
+
+    .landing-page #tonin-cashback #video-section.with-large-coin::after {
+        top: 80px;
+        left: -230px;
+    }
+
+    .landing-page #tonin-cashback #video-section.with-small-coin::before {
+        right: -80px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .landing-page #tonin-cashback .with-large-coin::after {
+        width: 150px;
+        height: 118px;
+    }
+
+    .landing-page #tonin-cashback h2 {
+        font-size: 20px;
+    }
+
+    .landing-page #tonin-cashback .steps .step {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .landing-page #tonin-cashback .steps .step .step__number {
+        left: calc(50% - 110px);
+    }
+
+    .landing-page #tonin-cashback .steps .step p {
+        margin-top: 10px;
+    }
+
+    .landing-page #tonin-cashback .purple-box h3 {
+        font-size: 22px;
+    }
+
+    .landing-page #tonin-cashback .purple-box p {
+        font-size: 15px;
+    }
+
+    .landing-page #tonin-cashback #steps-section.with-large-coin::after {
+        top: 150px;
+        right: calc(50% - 180px);
+        transform: translateX(50%);
+    }
+
+    .landing-page #tonin-cashback #video-section.with-large-coin iframe {
+        z-index: 2;
+    }
+
+    .landing-page #tonin-cashback #video-section.with-large-coin::after {
+        left: -100px;
+        z-index: 1;
+    }
+
+    .landing-page #tonin-cashback #video-section.with-small-coin::before {
+        right: -30px;
+        bottom: 20px;
+    }
+}
+
+.d-none {
+  display: none!important;
+}
+
+@media (min-width: 768px) {
+  .d-md-none {
+    display: none!important;
+  }
+
+  .d-md-block {
+    display: block!important;
+  }
+}
